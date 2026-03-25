@@ -1,0 +1,69 @@
+{
+  "jobs": 4,
+  "tasks": [
+    {
+      "id": "page-07",
+      "promptFiles": ["prompts/07-page-proxy-warfare.md"],
+      "image": "07-page-proxy-warfare.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-08",
+      "promptFiles": ["prompts/08-page-sabotage-campaign.md"],
+      "image": "08-page-sabotage-campaign.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-09",
+      "promptFiles": ["prompts/09-page-uranium-escalation.md"],
+      "image": "09-page-uranium-escalation.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-10",
+      "promptFiles": ["prompts/10-page-israel-strikes.md"],
+      "image": "10-page-israel-strikes.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-11",
+      "promptFiles": ["prompts/11-page-iran-retaliation.md"],
+      "image": "11-page-iran-retaliation.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-12",
+      "promptFiles": ["prompts/12-page-us-intervention.md"],
+      "image": "12-page-us-intervention.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-13",
+      "promptFiles": ["prompts/13-page-regional-war.md"],
+      "image": "13-page-regional-war.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-14",
+      "promptFiles": ["prompts/14-page-diplomatic-efforts.md"],
+      "image": "14-page-diplomatic-efforts.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    }
+  ]
+}

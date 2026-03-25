@@ -1,0 +1,140 @@
+[
+  {
+    "title": "19 页漫画看懂中东风暴",
+    "author": "宝玉",
+    "stats": "封面",
+    "desc": "三大强国、四幕大戏、47 年恩怨情仇。当 F-35I 划破夜空，当中东局势走向何方？",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/00-cover-middleeast-storm.png"],
+    "per_image_text": {}
+  },
+  {
+    "title": "三大主角登场",
+    "author": "宝玉",
+    "stats": "角色介绍",
+    "desc": "🇺🇸美国：遏制伊朗、保护以色列\n🇮🇱以色列：消除核威胁、维持军事优势\n🇮🇷伊朗：政权生存、扩大影响力",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/characters/characters.png"],
+    "per_image_text": {}
+  },
+  {
+    "title": "第一幕：历史根源",
+    "author": "宝玉",
+    "stats": "1979-2015",
+    "desc": "1979 年伊朗伊斯兰革命爆发，美伊关系破裂。2015 年核协议签署，和平似乎到来。",
+    "images": [
+      "file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/01-page-historical-roots.png",
+      "file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/04-page-nuclear-deal.png"
+    ],
+    "per_image_text": {
+      "1": "1979 年，德黑兰街头，伊朗伊斯兰革命爆发",
+      "2": "2015 年，维也纳，各国代表签署伊核协议"
+    }
+  },
+  {
+    "title": "第二幕：紧张升级",
+    "author": "宝玉",
+    "stats": "2018-2024",
+    "desc": "美国退出核协议，恢复极限施压。苏莱曼尼遇刺，中东濒临战争边缘。影子战争秘密进行。",
+    "images": [
+      "file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/05-page-us-exits-deal.png",
+      "file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/06-page-soleimani-killing.png"
+    ],
+    "per_image_text": {
+      "1": "2018 年，特朗普政府单方面退出伊核协议",
+      "2": "2020 年，苏莱曼尼在巴格达机场遇刺"
+    }
+  },
+  {
+    "title": "影子战争",
+    "author": "宝玉",
+    "stats": "暗战",
+    "desc": "核科学家遇刺、核设施爆炸、网络攻击……所有人都心知肚明，但谁也不承认。",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/08-page-sabotage-campaign.png"],
+    "per_image_text": {
+      "1": "影子战争：核设施爆炸、科学家遇刺"
+    }
+  },
+  {
+    "title": "第三幕：全面对抗",
+    "author": "宝玉",
+    "stats": "2025-2026",
+    "desc": "伊朗铀浓缩升级至 84%，距离武器级仅一步之遥。以色列发动空袭，伊朗导弹报复。",
+    "images": [
+      "file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/09-page-uranium-escalation.png",
+      "file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/10-page-israel-strikes.png"
+    ],
+    "per_image_text": {
+      "1": "2025 年，铀浓缩丰度提升至 84%",
+      "2": "2025 年 4 月，以色列发动「新曙光行动」"
+    }
+  },
+  {
+    "title": "伊朗报复",
+    "author": "宝玉",
+    "stats": "真实承诺",
+    "desc": "数百枚导弹和无人机射向以色列，铁穹系统全力拦截，夜空被爆炸照亮。",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/11-page-iran-retaliation.png"],
+    "per_image_text": {
+      "1": "伊朗发动「真实承诺」行动，数百枚导弹袭来"
+    }
+  },
+  {
+    "title": "美国介入",
+    "author": "宝玉",
+    "stats": "双航母",
+    "desc": "两艘美国航母战斗群进入波斯湾，B-52 轰炸机部署卡塔尔。信号明确：以色列我支持，伊朗别过分。",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/12-page-us-intervention.png"],
+    "per_image_text": {
+      "1": "2025 年 5 月，美国双航母进入波斯湾"
+    }
+  },
+  {
+    "title": "战火蔓延",
+    "author": "宝玉",
+    "stats": "平民代价",
+    "desc": "真主党加入战斗，数万居民撤离。医院人满为患，葬礼上母亲痛哭。",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/13-page-regional-war.png"],
+    "per_image_text": {
+      "1": "战争的代价，最终由平民承担"
+    }
+  },
+  {
+    "title": "外交斡旋",
+    "author": "宝玉",
+    "stats": "联合国",
+    "desc": "安理会紧急会议，各国代表激烈辩论。立场分歧巨大，谈判陷入僵局。",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/14-page-diplomatic-efforts.png"],
+    "per_image_text": {
+      "1": "2025 年 9 月，联合国安理会紧急会议"
+    }
+  },
+  {
+    "title": "三方利益分析",
+    "author": "宝玉",
+    "stats": "核心诉求",
+    "desc": "美国：遏制伊朗、保护以色列\n以色列：消除核威胁\n伊朗：政权生存、扩大影响",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/15-page-interests-analysis.png"],
+    "per_image_text": {
+      "1": "美以伊三方核心利益分析"
+    }
+  },
+  {
+    "title": "2026 年三种未来",
+    "author": "宝玉",
+    "stats": "预测",
+    "desc": "🟢有限协议 40%：不完美但避免战争\n🟡持续对抗 45%：不战不和的常态\n🔴全面战争 15%：所有人都不想看到",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/17-page-future-scenarios.png"],
+    "per_image_text": {
+      "1": "2026 年三种可能的未来走向"
+    }
+  },
+  {
+    "title": "尾声：和平需要勇气",
+    "author": "宝玉",
+    "stats": "结局",
+    "desc": "中东地图的夜景，学校的灯光，医院的温暖。和平鸽飞过，黎明曙光升起。\n\n「和平需要勇气，而非武器。」",
+    "images": ["file:///cv5/linwh/ClaudeCode/claudecode_test/comic/middleeast-conflict/18-page-ending.png"],
+    "per_image_text": {
+      "1": "和平需要勇气，而非武器"
+    }
+  }
+]

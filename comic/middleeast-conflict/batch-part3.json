@@ -1,0 +1,37 @@
+{
+  "jobs": 4,
+  "tasks": [
+    {
+      "id": "page-15",
+      "promptFiles": ["prompts/15-page-interests-analysis.md"],
+      "image": "15-page-interests-analysis.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-16",
+      "promptFiles": ["prompts/16-page-regional-actors.md"],
+      "image": "16-page-regional-actors.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-17",
+      "promptFiles": ["prompts/17-page-future-scenarios.md"],
+      "image": "17-page-future-scenarios.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-18",
+      "promptFiles": ["prompts/18-page-ending.md"],
+      "image": "18-page-ending.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    }
+  ]
+}

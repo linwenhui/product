@@ -1,0 +1,45 @@
+{
+  "jobs": 4,
+  "tasks": [
+    {
+      "id": "page-04",
+      "promptFiles": ["prompts/04-page-nuclear-deal-revised.md"],
+      "image": "04-page-nuclear-deal.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-05",
+      "promptFiles": ["prompts/05-page-us-exits-deal-revised.md"],
+      "image": "05-page-us-exits-deal.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-07",
+      "promptFiles": ["prompts/07-page-proxy-warfare-revised.md"],
+      "image": "07-page-proxy-warfare.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-11",
+      "promptFiles": ["prompts/11-page-iran-retaliation-revised.md"],
+      "image": "11-page-iran-retaliation.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    },
+    {
+      "id": "page-13",
+      "promptFiles": ["prompts/13-page-regional-war-revised.md"],
+      "image": "13-page-regional-war.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-4.0",
+      "ar": "3:4"
+    }
+  ]
+}
