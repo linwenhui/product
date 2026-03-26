@@ -1,0 +1,11 @@
+file '/cv5/linwh/ClaudeCode/claudecode_test/video-automation-workflow/output/scene_001.png'
+duration 12.215
+file '/cv5/linwh/ClaudeCode/claudecode_test/video-automation-workflow/output/scene_002.png'
+duration 10.906
+file '/cv5/linwh/ClaudeCode/claudecode_test/video-automation-workflow/output/scene_003.png'
+duration 9.816
+file '/cv5/linwh/ClaudeCode/claudecode_test/video-automation-workflow/output/scene_004.png'
+duration 9.598
+file '/cv5/linwh/ClaudeCode/claudecode_test/video-automation-workflow/output/scene_005.png'
+duration 11.561
+file '/cv5/linwh/ClaudeCode/claudecode_test/video-automation-workflow/output/scene_005.png'

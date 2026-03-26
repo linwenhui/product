@@ -1,0 +1,38 @@
+# 女声配置 - 温柔知性
+# 适合：情感内容、故事讲述、亲和力内容
+
+script:
+  provider: "claude"
+  base_url: "${ANTHROPIC_BASE_URL}"
+  model: "${CLAUDE_MODEL:-claude-sonnet-4-20250514}"
+  template: "scripts/script_template.txt"
+
+visuals:
+  provider: "seedream"
+  api_key: "${ARK_API_KEY}"
+  style: "cartoon style, bright colors"
+  resolution: "1080x1920"
+
+audio:
+  # 使用 OpenAI TTS - 女声
+  provider: "openai_tts"
+  tts_voice: "nova"  # 活力女声
+  # 备选：shimmer(温柔甜美)
+
+  # Azure TTS 备用 - 女声
+  voice: "zh-CN-XiaoxiaoNeural"  # 温柔知性女声
+
+  rate: 1.0
+  volume: 1.0
+  bgm:
+    enabled: false
+
+export:
+  resolution: "1080x1920"
+  fps: 30
+  crf: 23
+
+advanced:
+  working_dir: "./output"
+  temp_dir: "./tmp"
+  retry_count: 2

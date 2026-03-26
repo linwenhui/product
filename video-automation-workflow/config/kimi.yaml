@@ -1,0 +1,31 @@
+# Kimi 配置示例
+
+script:
+  provider: "kimi"
+  api_key: "${KIMI_API_KEY}"
+  template: "scripts/script_template.txt"
+  default_duration: 60
+
+visuals:
+  provider: "seedream"
+  api_key: "${ARK_API_KEY}"
+  style: "cartoon style, bright colors"
+  resolution: "1080x1920"
+
+audio:
+  provider: "azure"
+  api_key: "${AZURE_API_KEY}"
+  voice: "zh-CN-YunxiNeural"
+  bgm:
+    enabled: true
+    volume: 0.3
+
+export:
+  resolution: "1080x1920"
+  fps: 30
+  crf: 23
+
+advanced:
+  working_dir: "./output"
+  temp_dir: "./tmp"
+  retry_count: 2

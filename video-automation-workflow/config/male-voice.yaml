@@ -1,0 +1,38 @@
+# 男声配置 - 沉稳有力
+# 适合：知识分享、教程、新闻播报
+
+script:
+  provider: "claude"
+  base_url: "${ANTHROPIC_BASE_URL}"
+  model: "${CLAUDE_MODEL:-claude-sonnet-4-20250514}"
+  template: "scripts/script_template.txt"
+
+visuals:
+  provider: "seedream"
+  api_key: "${ARK_API_KEY}"
+  style: "cartoon style, bright colors"
+  resolution: "1080x1920"
+
+audio:
+  # 使用 OpenAI TTS - 男声
+  provider: "openai_tts"
+  tts_voice: "echo"  # 沉稳男声
+  # 备选：onyx(深沉磁性), fable(温暖叙事)
+
+  # Azure TTS 备用 - 男声
+  voice: "zh-CN-YunxiNeural"
+
+  rate: 1.0
+  volume: 1.0
+  bgm:
+    enabled: false
+
+export:
+  resolution: "1080x1920"
+  fps: 30
+  crf: 23
+
+advanced:
+  working_dir: "./output"
+  temp_dir: "./tmp"
+  retry_count: 2
