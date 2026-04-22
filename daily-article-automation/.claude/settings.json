@@ -1,0 +1,5 @@
+{
+  "permission_mode": "bypassPermissions",
+  "allowedTools": ["WebSearch", "Bash", "Edit", "Write", "Read", "Glob", "Grep"],
+  "mcpServers": {}
+}

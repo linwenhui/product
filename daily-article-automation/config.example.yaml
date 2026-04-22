@@ -1,0 +1,40 @@
+# Daily Article Automation Configuration Example
+# 复制此文件为 config.yaml 并根据需要修改
+
+schedule:
+  cron: "0 6 * * *"  # 每天早上 6 点
+  timezone: "Asia/Shanghai"
+
+notification:
+  method: "wechat"  # 或 "email", "dingtalk"
+  recipient: ""  # 填写接收通知的微信用户 ID
+
+article:
+  target_length: 1200  # 字数
+  image_density: "balanced"  # 配图密度：minimal/balanced/rich
+  auto_publish: false  # 是否自动发布（true 则发布，false 存为草稿）
+
+hot_topics:
+  sources:
+    - name: "xiaohongshu"
+      weight: 0.3
+      enabled: true
+    - name: "weibo"
+      weight: 0.3
+      enabled: true
+    - name: "zhihu"
+      weight: 0.2
+      enabled: true
+    - name: "twitter"
+      weight: 0.2
+      enabled: true
+  min_topics: 5  # 最少获取热点数量
+  ranking_algorithm: "weighted_score"  # 加权评分算法
+
+retry:
+  max_attempts: 3
+  delay_seconds: 60
+
+output:
+  base_dir: "article"
+  log_dir: "logs"

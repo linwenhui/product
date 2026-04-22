@@ -1,0 +1,26 @@
+# Daily Article Automation - Python Dependencies
+
+# Core
+pyyaml>=6.0
+requests>=2.28.0
+
+# Hot topic fetching
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Image generation (optional)
+Pillow>=9.0.0
+
+# Notification (optional)
+# For email notifications
+# aiosmtplib>=2.0.0
+
+# For DingTalk notifications
+# requests>=2.28.0  # already included
+
+# Logging and utilities
+python-json-logger>=2.0.0
+
+# Development
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
